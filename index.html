@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Churrasco</title>
+<style>
+    body{
+        background-color: rgb(0, 134, 179);
+        text-decoration-color: white;
+    }
+    
+</style>
+<script>
+function calculaChurrasco(){
+var temCarne = document.getElementById('carne').checked;
+var temFrango = document.getElementById('frango').checked;
+var temLinguica = document.getElementById('linguica').checked;
+var temCerveja = document.getElementById('cerveja').checked;
+var temRefri = document.getElementById('refri').checked;
+var qtcarne = 400.00;
+var qtfrango = 100.00;
+var qtlinguica = 100.00;
+var qtcerveja = 500.00;
+var qtrefri = 500.00;
+qtpessoas = document.getElementById('pessoas').value;
+
+
+
+}
+
+</script>
+</head>
+<body>
+    <h1>Calculadora de Churrasco</h1>
+    <p>Digite o que deseja consumir</p>
+    
+    
+    <form method="get">
+        <fieldset>
+          <legend>Selecione as Carnes:</legend>
+          <input type="checkbox" id ="Carne" name="churrasco" value="carne"/> Carne Vermelha<br />
+          <input type="checkbox" id ="Frango" name="churrasco" value="frango"/> Frango<br />
+          <input type="checkbox" id ="Linguica" name="churrasco" value="linguica"/> Linguiça<br />
+        </fieldset>
+      </form> 
+
+      <form method="get">
+        <fieldset>
+          <legend>Selecione as Bebidas:</legend>
+          <input type="checkbox" id = "Cerveja" name="churrasco" value="cerveja"/> Cerveja<br />
+          <input type="checkbox" id = "Refri" name="churrasco" value="refri"/> Refrigerante<br />
+        </fieldset>
+      </form> 
+      <form method="get">
+        <fieldset>
+          <legend>Quantidade de de Pessoas:</legend>
+          Pessoas:<br>
+          <input type="text" id "pessoas" name="pessoas" value="">
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+      <p></p>
+      <button type="button"
+      onclick="calculaChurrasco">
+      Resultado.</button>
+
+    
+</center>
+</body>
